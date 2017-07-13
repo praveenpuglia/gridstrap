@@ -1,0 +1,23 @@
+/*These styles are for demo purposes. The grid code is in grid.css  */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.col,
+[class*=col-] {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid rgba(86,61,124,0.2);
+  background: rgba(86,61,124,0.15);
+  position: relative;
+}
+.col::before,
+[class*=col-]::before {
+  position: absolute;
+  content: attr(class);
+  left: 0;
+  top: 0;
+  font-size: 9px;
+  background: white;
+  color: #c9302c;
+}

@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grid Example - Simple Grid System</title>
+    <link rel="stylesheet" href="src/grid.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Using just <code>.col</code> : Always Horizontal</h2>
+        <div class="row">
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+            <div class="col"> 1</div>
+        </div>
+        <h2>Using <code>col-sm-*</code>. Horizontal above container width 540px</h2>
+        <div class="row">
+            <div class="col-sm-2"> 2 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+            <div class="col-sm-1"> 1 </div>
+        </div>
+        <h2>Using <code>col-md-*</code>. Horizontal above container width 720px</h2>
+        <div class="row">
+            <div class="col col-md-6"> 6 </div>
+            <div class="col col-md-6"> 6 </div>
+        </div>
+        <h2>Using <code>col-lg-*</code>. Horizontal above container width 960px</h2>
+        <div class="row">
+            <div class="col col-lg-4"> 4 </div>
+            <div class="col col-lg-4"> 4 </div>
+            <div class="col col-lg-4"> 4 </div>
+        </div>
+
+        <h2>Using class <code>no-gutters</code> with <code>row</code> to remove gutters </h2>
+        <div class="row no-gutters">
+            <div class="col col-lg-3"> 3 </div>
+            <div class="col col-lg-3"> 3 </div>
+            <div class="col col-lg-3"> 3 </div>
+            <div class="col col-lg-3"> 3 </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

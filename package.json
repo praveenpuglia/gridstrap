@@ -1,0 +1,24 @@
+{
+  "name": "gridstrap",
+  "version": "1.0.0",
+  "description": "Bootstrap V4 grids made using CSS Grids Module",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass src/style.scss src/style.css",
+    "start": "browser-sync start --server --files \"**/*.css, **/*.js, **/*.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "npm run scss -- -w & npm start"
+  },
+  "keywords": [
+    "bootstrap",
+    "boilerplate",
+    "grid",
+    "css"
+  ],
+  "author": "Praveen Puglia",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "node-sass": "^4.5.0"
+  }
+}
