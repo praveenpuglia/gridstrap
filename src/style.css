@@ -21,3 +21,14 @@ body {
   background: white;
   color: #c9302c;
 }
+
+/*Top bar  */
+.top-bar {
+  display: flex;
+  align-items: center;
+}
+.top-bar a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: rgb(0.7%, 58.5%, 99.9%)
+}
